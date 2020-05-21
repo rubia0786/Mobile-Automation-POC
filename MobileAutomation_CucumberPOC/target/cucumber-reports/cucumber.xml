@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="61.732276">
+    <testcase classname="Login on Myntra App" name="Successful login with Valid Credentials" time="61.732276">
+        <failure message="org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'COMPAQ', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: E:\MobileAutomation_Cucumbe..., appActivity: com.myntra.android.activiti..., appPackage: com.myntra.android, automationName: Appium, databaseEnabled: false, desired: {app: E:\MobileAutomation_Cucumbe..., appActivity: com.myntra.android.activiti..., appPackage: com.myntra.android, automationName: Appium, deviceName: 21398fbc06057ece, platformName: android, platformVersion: 10.0}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 21398fbc06057ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 21398fbc06057ece, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 4, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 654de551-9bf1-4e48-92a2-fd056d7544d5&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)&#13;&#10;&#9;at io.appium.java_client.MobileElement.execute(MobileElement.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at steps.AppLoginStep.user_clicks_the_Login_button_and_enters_and(AppLoginStep.java:56)&#13;&#10;&#9;at ✽.User clicks the Login button and enters &quot;Rashikas331@gmail.com&quot; and &quot;Demo@123&quot;(file:src/test/resources/features/AppLogin.feature:6)&#13;&#10;">
+            <![CDATA[Given User is on Myntra Home Page...........................................passed
+When User clicks the Login button and enters "Rashikas331@gmail.com" and "Demo@123".failed
+Then User Should be able to login...........................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'COMPAQ', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\MobileAutomation_Cucumbe..., appActivity: com.myntra.android.activiti..., appPackage: com.myntra.android, automationName: Appium, databaseEnabled: false, desired: {app: E:\MobileAutomation_Cucumbe..., appActivity: com.myntra.android.activiti..., appPackage: com.myntra.android, automationName: Appium, deviceName: 21398fbc06057ece, platformName: android, platformVersion: 10.0}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 21398fbc06057ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 21398fbc06057ece, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 4, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 654de551-9bf1-4e48-92a2-fd056d7544d5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at steps.AppLoginStep.user_clicks_the_Login_button_and_enters_and(AppLoginStep.java:56)
+	at ✽.User clicks the Login button and enters "Rashikas331@gmail.com" and "Demo@123"(file:src/test/resources/features/AppLogin.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
